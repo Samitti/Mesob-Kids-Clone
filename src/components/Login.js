@@ -5,13 +5,13 @@ const Login = (props) => {
         <Container>            
             <Content>
                 <CTA>
-                    <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
+                    <CTALogoOne src="/images/cta-logo-one.png" alt="" />
                     <SignUp>GET ALL THERE</SignUp>
                     <Description>
-                        Get Premier Access to Raya and the Last Dragon for 
-                        an aditional fee with a Deany+ subscription. As of 
-                        03/26/21, the price of Disney+ and the Disney bundle 
-                        will increase by $1. 
+                        Get Premier Access to Natu and Betu for 
+                        an aditional fee with Mesob Hixanat subscription. You will 
+                        have un limited acess and every new released video without
+                        ads. 
                     </Description>
                     <CTALogoTwo src="/images/cta-logo-two.png" alt="" />
                 </CTA>
@@ -83,8 +83,10 @@ const CTALogoOne = styled.img`
 
 const SignUp = styled.a`
     font-weight: bold;
-    color: #f9f9f9;
-    background-color: #0063e5;
+    /* color: #f9f9f9; */
+    color: red;
+    /* background-color: #0063e5; */
+    background-color: yellow;
     margin-bottom: 12px;
     width: 100%;
     letter-spacing: 1.5px;
@@ -94,7 +96,8 @@ const SignUp = styled.a`
     border-radius: 4px;
 
     &:hover {
-        background-color: #0483ee;
+        /* background-color: #0483ee; */
+        background-color: yellowgreen;
     }
 `;
 
